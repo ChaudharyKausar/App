@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(contact1.jpg);
+            width: 100%;
+            height: fit-content;
+        }
+        table{
+            width: 100%;
+        }
+        img{
+            width: 100vh;
+            margin-top: 100px;
+            margin-left: 50px;
+            border-radius: 50px;
+            text-align: center;
+        }
+        th{
+            font-size: 35px;
+            padding-bottom: 20PX;
+            color: purple;
+            text-align: left;
+        }
+        td{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: purple;
+        }
+        input[type=text]{
+            width: 80%;
+            height: 100%;
+            border-radius: 10px;
+            padding: 8px 8px;
+        }
+        input[type=text]:hover{
+            border: #ccc;
+            box-shadow: grey 10px 10px 10px;
+        }
+
+        input[type=email]{
+            width: 80%;
+            height: 100%;
+            border-radius: 10px;
+            padding: 8px 8px;}
+
+            input[type=email]:hover{
+            border: #ccc;
+            box-shadow: grey 10px 10px 10px;
+        }
+
+            input[type=number]{
+            width: 80%;
+            height: 100%;
+            border-radius: 10px;
+            padding: 8px 8px;}
+
+            input[type=number]:hover{
+            border: #ccc;
+            box-shadow: grey 10px 10px 10px;
+        }
+      textarea{
+            width: 90%;
+            height: 100px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+             border-radius: 10px;
+            background-color: #f8f8f8;
+      }
+      textarea:hover{
+            border: #ccc;
+            box-shadow: grey 10px 10px 10px;
+        }
+
+        input[type=submit]{
+            padding: 10px;
+            background-color: white;
+            color: black;
+            font-size: 15px;
+            text-align:  center;
+            border-radius: 20px;
+            width: 100px;
+        }
+        input[type=submit]:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="contact2.jpg"/>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <th>
+                            Get In Touch
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            First nam
+                        </td>
+                        <td>
+                            Last Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="fistname" maxlength="10" placeholder="Your First Name..."/>
+                        </td>
+                        <td>
+                            <input type="text" id="lastname" maxlength="16" placeholder="Your Last Name..."/>
+                        </td>
+                    </tr>
+                    <tr>
+                       <td> 
+                            Email
+                       </td>
+                       <td>
+                        Phone Number
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" id="email" maxlength="20" placeholder="Enter Email..."/>
+                        </td>
+                        <td>
+                            <input type="number" id="phone" maxlength="10" minlength="10" placeholder="Enter Phone Number..."/>
+                        </td>
+                    </tr>
+                    <tr aria-colspan="2"><td>
+                        Message
+                    </td></tr><tr>
+                <td>
+                    <textarea id="message" maxlength="50" placeholder="Write a message..."></textarea>
+                </td></tr> 
+                <tr aria-colspan="2">
+                    <td>
+                        <input type="submit"/>
+                    </td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

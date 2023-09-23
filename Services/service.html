@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+nav{
+    width: 90%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+background-color: rgb(235, 7, 136);
+}
+
+nav .h{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav ul{
+    float: right;
+   
+}
+ 
+nav li{
+    display: inline-block;
+    float: left;
+}
+nav li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    color:white;
+    text-decoration: none;
+}
+nav li a:hover{
+    transition: all .2s;
+    font-size: 20px;
+}
+.bgimg img{
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+}
+
+.service{
+    font-size: 40px;
+    color: rgb(250, 9, 178);
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.service_content{
+    font-size: 20px;
+    color: grey;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;   
+    margin-left: 70px; 
+    margin-right: 70px;
+    font-weight: 5800;
+    line-height: 30px;
+    
+}
+
+table{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+tr{
+    width: 100%;
+}
+td{
+    width: 60vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img{
+    width: 550px;
+    height: 500px;
+   padding-left: 5px;
+   padding-bottom: 50px;
+}
+
+<!--class Fotter-->
+.footer{
+    background-color: plum;
+    padding: 70px 0px;
+}
+.foot{
+    width: 100%;
+    background-color: rgb(220, 70, 167);
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+
+.foot_c1{
+width: 25%;
+padding: 0px 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot_c1 h4{
+    font-size: 30px;
+    color:white;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    position: relative;
+}
+.foot_c1 h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 200px;
+}
+.foot_c1 ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.foot_c1 ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color:rgb(7, 6, 7);
+    display: block;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.foot_c1 ul li a:hover{
+    color: plum;
+    padding-left: 10PX;
+}
+    
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="h">
+            <p>Services</p>
+        </div>
+
+        <ul>
+        <li><a href="C:\Users\Safwan`s PC\Desktop\first program\website\Bracelet\bracelet.html">Bracelet</a></li>
+        <li><a href="C:\Users\Safwan`s PC\Desktop\first program\website\Necklace\Necklace.html">Necklace</a></li>
+        <li><a href="C:\Users\Safwan`s PC\Desktop\first program\website\Ring\ring.html">Rings</a></li>
+        <li><a href="C:\Users\Safwan`s PC\Desktop\first program\website\Nose pin\nosepin.html">Nose Pin</a></li>
+        <li><a href="C:\Users\Safwan`s PC\Desktop\first program\website\Earing\earing.html">Earings</a></li>
+    </ul>
+    </nav>
+    <div class="bgimg">
+        <img src="home4.jpg" alt="Jewellery Image">
+    </div>  
+
+
+    <!--Services-->
+    <div class="service">
+        <h2>Jewellery Service</h2>
+    </div>
+
+    <div class="service_content">
+        <p>When it comes to jewelry services few jewelers are as equipped to satisfy your needs like the team at Jewelry Designs. 
+        With a comprehensive staff of designers, jewelers, gemologists, and consultants whose life passion is the creation of fine 
+        jewelry, you can be certain that your precious possessions are in good hands. Face it; the primary concern most people have 
+        when commissioning jewelry services is trust. Closely held by the managing team, our company has been trusted by tens of thousands 
+        of satisfied customers since it was founded in 1980.</p> </div>
+
+
+        <table style="width:100%">
+            <tr>
+              <td><img src="service.jpg"/></td>
+              <td><img src="service1.jpg"/></td>
+            </tr>
+            <tr>
+              <td><img src="service2.html" alt=""></td>
+              <td><img src="service3.jpg"/></td> 
+            </tr>
+            <tr>
+                <td><img src="service4.jpg" alt=""></td>
+                <td><img src="service6.jpg"/></td> 
+              </tr>
+          </table>
+
+          <!--Footer-->
+    <footer class="footer">
+        <div class="foot">
+            <div class="row">
+                <div class="foot_c1"> 
+                    <h4>Link</h4>
+                    <ul>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Track Your Order</a></li>
+                        <li><a href="#">Payment Option</a></li>
+                        <li><a href="#">Find A Shop</a></li>
+                        <li><a href="#">Return</a></li>
+                    </ul>
+                </div>
+
+                <div class="foot_c1"> 
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help And FAQs</a></li>
+                        <li><a href="#">Return</a></li>
+                        <li><a href="#">About Pipa Bella</a></li>
+                    </ul>
+                </div>
+
+                <div class="foot_c1"> 
+                    <h4>Contct Us</h4>
+                    <ul>
+                        <li><a href="#">Write To Us</a></li>
+                        <li><a href="#">99-1234-5678</a></li>
+                        <li><a href="#">Chat With Us</a></li>
+                    </ul>
+                </div>
+
+            
+            </div>
+            </div>
+        </footer>
+                
+</body>
+</html>
